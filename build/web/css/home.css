@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Oct-2020, 2:33:10 pm
+    Author     : tharu
+*/
+
+#search{
+    margin-left: 500px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+}
+
+li {
+  font-size: 22px;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+#store-tab {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin: 40px 250px;
+}
+
+#store-tab td, #store-tab th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#store-tab tr:nth-child(even){background-color: #f2f2f2;}
+
+#store-tab tr:hover {background-color: #ddd;}
+
+#store-tab th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-add {
+  background-color: #008CBA; 
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input.store-txt[type="text"], textarea.store-txt{
+    width: 300px;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+textarea.store-txt{
+    height: 100px;
+}

@@ -1,0 +1,90 @@
+
+#search{
+    margin-left: 500px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+}
+
+li {
+  font-size: 22px;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+#store-tab {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  margin: 40px 175px;
+  table-layout:fixed;
+}
+
+#store-tab td, #store-tab th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#store-tab tr:nth-child(even){background-color: #f2f2f2;}
+
+#store-tab tr:hover {background-color: #ddd;}
+
+#store-tab th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-add {
+  background-color: #008CBA; 
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+input[type=date]{
+    color: blue;
+    font-size: 17px;
+}
+input[type=date]:disabled{
+    color: red;
+
+}
+select:disabled{
+    color: red;
+}
+select{
+    font-size: 17px; 
+    padding: 5px 5px; 
+    background: white; 
+    color: blue;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login page</title>
+<link href="css/login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1 style="margin-right: 80px;">Scheduling WebApp</h1>
+    <form method="POST" action="Login">
+        <div class="box">
+            <h1>Login</h1>
+            <input type="radio" name="login-type" value="customer">
+            <label for="Customer">Customer</label>
+            <input type="radio" name="login-type" value="store">
+            <label for="Store-Admin">Store Admin</label>
+            <input type="text" placeholder="username" name="username"/>
+            <input type="password" placeholder="password" name="password"/>
+            <br>
+            <button class="btn" type="submit">Login</button>
+            <p><a style="font-size: 18px;" href="Register">Create an account</a></p>
+        </div>   
+    </form>
+</body>
+</html>

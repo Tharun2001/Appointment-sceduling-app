@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration page</title>
+<link href="css/login.css" rel="stylesheet" type="text/css">
+<script>
+    function validate(){
+        var uname = document.getElementById('username').value;
+        var pass = document.getElementById('password').value;
+        var pass_conf = document.getElementById('password-conf').value;
+        if(uname.length == 0 || pass.length == 0 || pass != pass_conf){
+            alert("Invalid");
+            return false;
+        }
+        return true;
+    }
+</script>
+</head>
+<body>
+    <h1 style="margin-right: 80px;">Scheduling WebApp</h1>
+    <form method="POST" action="Register" onsubmit="return validate()">
+        <div class="box">
+        <h1>Register</h1>
+        <input type="radio" id="customer" name="login-type" value="customer">
+        <label for="Customer">Customer</label>
+        <input type="radio" id="other" name="login-type" value="store">
+        <label for="Customer">Store Admin</label>        
+        <input class="email" type="text" placeholder="username" name="username" id = "username"/>
+        <input class="email" type="password" placeholder="password" name="password" id="password"/>
+        <input class="email" type="password" placeholder="Confirm password" name="password-conf" id="password-conf"/>
+        <br>
+        <button class="btn" type="submit">Submit</button>
+        <p><a style="font-size: 18px;" href="Login">Login</a></p>
+        </div>   
+    </form>
+</body>
+</html>
